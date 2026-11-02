@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "vagamp-costgov_jd052"
+name = "vagamp-multinode_bandwidth_bottleneck_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列成本与容量治理专家·多机通信的带宽瓶颈的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://vagamp.github.io"
-Repository = "https://github.com/vagamp/costgov_jd052"
-Issues = "https://github.com/vagamp/costgov_jd052/issues"
+Repository = "https://github.com/vagamp/multinode_bandwidth_bottleneck_timeline_score"
+Issues = "https://github.com/vagamp/multinode_bandwidth_bottleneck_timeline_score/issues"
 
 [project.scripts]
-costgov_jd052 = "costgov_jd052:main"
+multinode_bandwidth_bottleneck_timeline_score = "multinode_bandwidth_bottleneck_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["costgov_jd052"]
+py-modules = ["multinode_bandwidth_bottleneck_timeline_score"]
